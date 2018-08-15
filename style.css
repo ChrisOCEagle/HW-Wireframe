@@ -1,3 +1,7 @@
+* {
+    box-sizing:border-box;
+}
+
 body {
     font-family: arial;
     background: #777;
@@ -21,7 +25,7 @@ nav {
 
 section {
     float: left;
-    width: 60%;
+    width: 50%;
     height: auto;
     padding-top: 40px;
     border: 10px;
@@ -43,8 +47,8 @@ article {
 
 aside {
     float: left;
-    width: 20%;
-    height: auto;
+    width: 49%;
+    height: 30%;
     padding: 50px;
     background: #ebebeb;
     color: #777;
